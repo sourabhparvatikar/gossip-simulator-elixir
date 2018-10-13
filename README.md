@@ -1,6 +1,4 @@
-+++++++++++++
-Steps to run
-+++++++++++++
+Steps to run:
 
     Run the following command:
             mix run gossip.ex <number of nodes> <topology> <algorithm>
@@ -10,9 +8,7 @@ Steps to run
             <algorithm>: gossip or push-sum
 
 
-+++++++
-Working
-+++++++
+Working:
 
     1. In our program, Gossip and Push-sum algorithms run for line, imperfect line, 3D, Random 2D, Torus and full topologies.
 
@@ -44,9 +40,8 @@ Working
           When a node receives a message, it adds recived s and w to its own s and w. 
           if the difference in s/w does not change by more than 10^-10 for 3 consecutive times, it terminates.
       
-+++++++++++++++++++++++++++++++++++++++++++++++++
-Largest network for each topology and algorithm.
-+++++++++++++++++++++++++++++++++++++++++++++++++
+      
+Largest network for each topology and algorithm:
 
   -------------------------------------------------------------
   Algorithm | Full | 3D  | Random 2D | Torus | Imp line | line |
